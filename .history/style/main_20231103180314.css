@@ -1,0 +1,28 @@
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+body{
+    background: url(./../img/background.png) center/cover;
+    min-height: 100vh;
+}
+
+#circles ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin: -10px;
+}
+#circles li{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #dbfb23;
+}
+
+header,nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

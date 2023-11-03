@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    background: url(../img/background.png) center/cover;
+    position: relative;
+}
+#circles{
+    position: absolute;
+    left: 50%;
+    top: -5px;
+}
+#circles ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+#circles li{
+    padding: 10px;
+    display: block;
+    background-color: #d8f820;
+    border-radius: 50%;
+    margin: 0 15px 0 0 ;
+}
